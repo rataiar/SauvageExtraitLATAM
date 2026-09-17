@@ -1,0 +1,190 @@
+<title>Sauvage Extrait — Latin America</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="styles.css" />
+
+<!-- ============================================================ NAV -->
+<nav class="site-nav" id="siteNav">
+  <div class="nav-mark" data-nav="landing"><img src="assets/global/dior-logo-white.png" alt="Dior Beauty" /></div>
+  <div class="nav-links" id="navLinks">
+    <div class="nav-link" data-nav="event">Event</div>
+    <div class="nav-link" data-nav="trip">Educational Trip</div>
+  </div>
+  <div class="nav-burger" id="navBurger"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- ============================================================ LANDING -->
+<section class="view is-active" id="view-landing" data-view="landing">
+  <div class="landing-hero">
+    <img src="assets/global/landing-hero.jpg" alt="Sauvage Extrait activation venue, Santiago de Chile" />
+    <div class="scrim"></div>
+    <div class="landing-copy">
+      <div class="brand-line"><img src="assets/global/dior-logo-white.png" alt="Dior Beauty" /></div>
+      <h1 class="display">Sauvage Extrait</h1>
+      <div class="sub-line">Event &amp; Educational Trip <span class="sep">|</span> Latin America – Santiago, Chile</div>
+      <div class="meta-line-2">Performance Report – September 2026</div>
+    </div>
+  </div>
+
+  <div class="landing-overall">
+    <div class="section-head">
+      <div class="eyebrow">Overall Results</div>
+      <h2>The Event and the Educational Trip, combined.</h2>
+    </div>
+    <div class="kpi-grid" id="landingOverallKpiGrid"></div>
+  </div>
+
+  <div class="landing-entries">
+    <div class="entry-card" data-nav="event">
+      <img src="assets/event/hero.jpg" alt="Sauvage Extrait Event" />
+      <div class="scrim2"></div>
+      <div class="entry-card-body">
+        <div class="eyebrow">Chapter One</div>
+        <h2 class="display">The Event</h2>
+        <div class="entry-card-cta">Discover the Event <span class="arrow">→</span></div>
+      </div>
+    </div>
+    <div class="entry-card" data-nav="trip">
+      <img src="assets/trip/portraits/agus-correas.jpg" alt="Educational Trip Fragrance Reviewers" />
+      <div class="scrim2"></div>
+      <div class="entry-card-body">
+        <div class="eyebrow">Chapter Two</div>
+        <h2 class="display">The Educational Trip</h2>
+        <div class="entry-card-cta">Discover the Educational Trip <span class="arrow">→</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ EVENT -->
+<section class="view" id="view-event" data-view="event">
+
+  <div class="chapter-hero">
+    <img class="hero-media" src="assets/event/hero.jpg" alt="Sauvage Extrait Event, Santiago de Chile" />
+    <div class="scrim"></div>
+    <div class="chapter-hero-copy">
+      <div class="eyebrow">Event</div>
+      <h1 class="display">Sauvage Extrait</h1>
+      <div class="hero-meta">
+        <span id="eventLocation"></span>
+        <span id="eventDate"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="section section--tight-bottom" id="event-overview">
+    <div class="section-head reveal">
+      <div class="eyebrow">Overview &amp; Key Results</div>
+    </div>
+    <div class="kpi-grid reveal" id="eventKpiGrid"></div>
+    <p class="lede reveal" id="eventSummary" style="margin-top:40px;"></p>
+  </div>
+
+  <div class="section section--tight-top section--tight-bottom" id="event-story">
+    <div class="section-head reveal">
+      <div class="eyebrow">Event Story</div>
+      <h2>Inside the vineyard.</h2>
+    </div>
+    <div class="masonry reveal" id="vineyardMasonry"></div>
+  </div>
+
+  <div class="section section--tight-top section--tight-bottom" id="event-gallery">
+    <div class="section-head reveal">
+      <div class="eyebrow">Photo Gallery</div>
+      <h2>The evening, in full.</h2>
+    </div>
+    <div class="filmstrip reveal" id="guestsFilmstrip"></div>
+  </div>
+
+  <div class="section section--tight-top" id="event-video-gallery">
+    <div class="section-head reveal">
+      <div class="eyebrow">Video Gallery</div>
+    </div>
+    <div class="video-filmstrip reveal" id="guestsVideoGrid"></div>
+  </div>
+
+  <div class="section section--sand" id="event-guests">
+    <div class="section-head reveal">
+      <div class="eyebrow">The Guests</div>
+      <h2>Eighteen talents, four markets.</h2>
+      <p class="lede">Every confirmed guest from the evening, shown by Instagram handle with country and individual VIT contribution.</p>
+    </div>
+    <div class="guest-list reveal" id="guestList"></div>
+  </div>
+
+  <div class="section" id="event-content">
+    <div class="section-head reveal">
+      <div class="eyebrow">Content &amp; Coverage</div>
+      <h2>Selected content.</h2>
+    </div>
+    <div class="coverage-grid reveal" id="eventCoverageList"></div>
+  </div>
+
+</section>
+
+<!-- ============================================================ TRIP -->
+<section class="view" id="view-trip" data-view="trip">
+
+  <div class="chapter-hero">
+    <div class="trip-hero-mosaic" id="tripHeroMosaic"></div>
+    <div class="scrim"></div>
+    <div class="chapter-hero-copy">
+      <div class="eyebrow">Educational Trip</div>
+      <h1 class="display">Fragrance Reviewers</h1>
+      <div class="hero-meta">
+        <span id="tripLocation"></span>
+        <span id="tripDates"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="trip-overview">
+    <div class="section-head reveal">
+      <div class="eyebrow">Overview &amp; Key Results</div>
+      <h2>Expertise, translated into content.</h2>
+    </div>
+    <div class="kpi-grid reveal" id="tripKpiGrid"></div>
+    <p class="lede reveal" id="tripSummary" style="margin-top:40px;"></p>
+  </div>
+
+  <div class="section section--sand" id="trip-reviewers">
+    <div class="section-head reveal">
+      <div class="eyebrow">The Fragrance Reviewers</div>
+      <h2>Eight experts, sharing their passion for fragrances.</h2>
+      <p class="lede">The eight Fragrance Reviewers invited to Santiago, each generating individual VIT across the trip.</p>
+    </div>
+    <div class="reviewer-grid reveal" id="reviewerGrid"></div>
+  </div>
+
+  <div class="section section--dark" id="trip-journey">
+    <div class="section-head reveal">
+      <div class="eyebrow">The Journey</div>
+      <h2>Three days in Santiago.</h2>
+    </div>
+    <div class="journey-list" id="journeyList"></div>
+  </div>
+
+  <div class="section" id="trip-visual-story">
+    <div class="section-head reveal">
+      <div class="eyebrow">Visual Story</div>
+    </div>
+    <div class="masonry reveal" id="tripVisualMasonry"></div>
+  </div>
+
+</section>
+
+<!-- ============================================================ LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <div class="lightbox-close" id="lightboxClose">Close <span>✕</span></div>
+  <div class="lightbox-nav prev" id="lightboxPrev">‹</div>
+  <div class="lightbox-inner" id="lightboxInner"></div>
+  <div class="lightbox-nav next" id="lightboxNext">›</div>
+</div>
+
+<footer class="site-footer">
+  <div class="fm"><img src="assets/global/dior-logo-white.png" alt="Dior Beauty" /></div>
+  <div class="fn">Sauvage Extrait — Latin America · PR &amp; Communications Performance Report</div>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
